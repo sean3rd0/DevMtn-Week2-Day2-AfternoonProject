@@ -1,0 +1,75 @@
+body {
+    background: #FFE3EA;
+}
+
+main {
+    background: white;
+    margin: 20px;
+}
+
+header {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+header>div {
+    display: flex;
+    align-items: center;
+}
+
+.header-divs-one {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+}
+
+.resize-one {
+    width: 80px;
+    height: 80px;
+    overflow: auto;
+} 
+
+.big-text {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.small-text {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+header>div>div {
+    padding: 0 10px;
+}
+
+.header-divs-two {
+    /* display: flex;
+    flex-direction: row; */
+}
+
+button {
+    font: 12px;
+    font-weight: bold;
+    color: white;
+    background: #FF0063; 
+    margin: 0 45px;
+}
+
+.subscribe {
+    width: 115px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.resize-two {
+    width: 33px;
+    height: 33px;
+    overflow: auto;
+}
+
